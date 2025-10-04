@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+﻿baseURL = "https://beeplanetconnection.org/"
 title  = "Bee Planet Connection"
 languageCode = "en-us"
 
@@ -9,3 +9,4 @@ languageCode = "en-us"
 [markup]
   [markup.highlight]
     noClasses = true
+
