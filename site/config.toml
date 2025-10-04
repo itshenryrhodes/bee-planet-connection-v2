@@ -1,19 +1,29 @@
 baseURL = "https://beeplanetconnection.org/"
-title  = "Bee Planet Connection"
+title = "Bee Planet Connection"
 languageCode = "en-us"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
+[outputs]
+  home = ["HTML","RSS"]
+  page = ["HTML"]
+  section = ["HTML","RSS"]
+
 [markup]
   [markup.highlight]
     noClasses = true
-
-
-
-
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
 ignoreLogs = ['warning-goldmark-raw-html']
+
+[module]
+  [[module.mounts]]
+    source = "../static"
+    target = "static"
+  [[module.mounts]]
+    source = "../assets"
+    target = "assets"
