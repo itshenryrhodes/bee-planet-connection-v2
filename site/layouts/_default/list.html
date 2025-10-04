@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ if .Params.hero.enable }}{{ partial "hero.html" . }}{{ end }}
+  <article class="prose">
+    <h1>{{ or .Title .Site.Title }}</h1>
+    {{ with .Content }}{{ . }}{{ end }}
+    {{ if .Pages }}
+      <ul>
+        {{ range .Pages.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      </ul>
+    {{ end }}
+  </article>
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = "http://localhost:1313/"
+title  = "Bee Planet Connection"
+languageCode = "en-us"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.highlight]
+    noClasses = true

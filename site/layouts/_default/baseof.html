@@ -1,0 +1,12 @@
+{{ define "base" }}
+<!doctype html>
+<html lang="en">
+  <head>{{ partial "head.html" . }}</head>
+  <body>
+    {{ partial "header.html" . }}
+    <main class="container">{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer.html" . }}
+    {{ if .Site.IsServer }}{{/* Hugo auto-injects livereload */}}{{ end }}
+  </body>
+</html>
+{{ end }}

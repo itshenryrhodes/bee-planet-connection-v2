@@ -1,0 +1,56 @@
+{{/* Bee Planet hero: shows when .Params.hero.enable is true */}}
+{{ $h := .Params.hero }}
+{{ if $h.enable }}
+  {{ $deskName := $h.image_desktop | default "pooh-home-md.jpg" }}
+  {{ $mobName  := $h.image_mobile  | default "pooh-home-mobile.jpg" }}
+  {{ $alt      := $h.alt | default (.Title | printf "%s — Bee Planet") }}
+
+  {{ $deskR := resources.Get (printf "img/hero/%s" $deskName) }}
+  {{ $mobR  := resources.Get (printf "img/hero/%s" $mobName) }}
+
+  {{/* Pre-size variants with Hugo Pipes */}}
+  {{ $d960w  := $deskR | images.Resize "960x webp" }}
+  {{ $d1200w := $deskR | images.Resize "1200x webp" }}
+  {{ $d1440w := $deskR | images.Resize "1440x webp" }}
+  {{ $dj960  := $deskR | images.Resize "960x jpg" }}
+  {{ $dj1200 := $deskR | images.Resize "1200x jpg" }}
+  {{ $dj1440 := $deskR | images.Resize "1440x jpg" }}
+
+  {{ $m576w  := $mobR | images.Resize "576x webp" }}
+  {{ $m768w  := $mobR | images.Resize "768x webp" }}
+  {{ $mj576  := $mobR | images.Resize "576x jpg" }}
+  {{ $mj768  := $mobR | images.Resize "768x jpg" }}
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>{{ .Title }}</h1>
+        {{ with $h.strAPLINE }}<p class="lead">{{ . }}</p>{{ end }}
+        {{ with $h.ctas }}
+          <div class="hero-ctas">
+            {{ range . }}
+              <a class="btn {{ if eq (lower (index . "type")) "outline" }}btn-outline{{ else }}btn-primary{{ end }}" href="{{ .url }}">{{ .label }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+      <div class="hero-media" aria-hidden="true">
+        <picture>
+          <!-- Desktop first (≥ 768px use desktop art) -->
+          <source media="(min-width: 768px)" type="image/webp"
+                  srcset="{{ $d960w.RelPermalink }} 960w, {{ $d1200w.RelPermalink }} 1200w, {{ $d1440w.RelPermalink }} 1440w">
+          <source media="(min-width: 768px)" type="image/jpeg"
+                  srcset="{{ $dj960.RelPermalink }} 960w, {{ $dj1200.RelPermalink }} 1200w, {{ $dj1440.RelPermalink }} 1440w">
+
+          <!-- Mobile art -->
+          <source type="image/webp"
+                  srcset="{{ $m576w.RelPermalink }} 576w, {{ $m768w.RelPermalink }} 768w">
+          <source type="image/jpeg"
+                  srcset="{{ $mj576.RelPermalink }} 576w, {{ $mj768.RelPermalink }} 768w">
+
+          <img src="{{ $dj960.RelPermalink }}" alt="{{ $alt }}" width="960" height="540" loading="eager" decoding="async">
+        </picture>
+      </div>
+    </div>
+  </section>
+{{ end }}

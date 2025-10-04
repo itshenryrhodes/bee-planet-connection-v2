@@ -1,0 +1,103 @@
+{
+  "Bee Biology & Behaviour": {
+    "description": "Anatomy, physiology, genetics, and behaviour of honey bees and wild relatives.",
+    "subcategories": [
+      "Anatomy & Physiology",
+      "Genetics & Breeding",
+      "Communication & Senses",
+      "Lifecycle & Castes",
+      "Species Diversity"
+    ]
+  },
+  "Bee Health & Diseases": {
+    "description": "Pests, pathogens, nutrition, and health diagnostics for colonies.",
+    "subcategories": [
+      "Pests & Parasites",
+      "Bacterial, Viral & Fungal Diseases",
+      "Nutrition & Supplements",
+      "Integrated Pest Management",
+      "Diagnostic Tools & Labs"
+    ]
+  },
+  "Beekeeping Practice": {
+    "description": "Hands-on management, seasonal routines, and equipment guides.",
+    "subcategories": [
+      "Hive Management",
+      "Seasonal Calendars",
+      "Queen Rearing & Swarming",
+      "Beekeeping Equipment",
+      "Honey Harvesting & Processing",
+      "Record Keeping & Best Practice"
+    ]
+  },
+  "Pollination & Ecology": {
+    "description": "Pollination services, wild bees, flora, and environmental impact.",
+    "subcategories": [
+      "Crop Pollination",
+      "Wild Pollinators & Biodiversity",
+      "Floral Resources & Forage Mapping",
+      "Habitat Restoration",
+      "Climate Change & Adaptation"
+    ]
+  },
+  "Products & Commerce": {
+    "description": "Honey, wax, propolis, trade, and certification schemes.",
+    "subcategories": [
+      "Hive Products",
+      "Processing & Packaging",
+      "Organic & Certification",
+      "Trade & Regulations",
+      "Market Trends & Sustainability"
+    ]
+  },
+  "Research & Innovation": {
+    "description": "Scientific studies, technology, and data-driven apiculture.",
+    "subcategories": [
+      "Data & Remote Sensing",
+      "Breeding & Genetic Databases",
+      "Pesticide Impact",
+      "AI & Machine Learning in Apiculture",
+      "Academic Papers & Open Data"
+    ]
+  },
+  "Global Directory": {
+    "description": "Worldwide map of apiculture associations, labs, and suppliers.",
+    "subcategories": [
+      "National Associations & Federations",
+      "Research Institutes & Universities",
+      "Regulatory Bodies & Inspectors",
+      "NGOs & Conservation Projects",
+      "Suppliers & Service Providers"
+    ]
+  },
+  "Tools & Calculators": {
+    "description": "Utilities to support hive management and yield estimation.",
+    "subcategories": [
+      "Hive Weight Tracker",
+      "Nectar Flow Calendar",
+      "Disease Outbreak Map",
+      "Honey Yield Estimator",
+      "Beekeeper Log Templates"
+    ]
+  },
+  "Alerts & News": {
+    "description": "Timely alerts, advisories, and international updates.",
+    "subcategories": [
+      "Biosecurity & Import Advisories",
+      "Weather & Forage Alerts",
+      "Disease Outbreaks",
+      "Policy & Legislation",
+      "Scientific Breakthroughs"
+    ]
+  },
+  "Community & Learning": {
+    "description": "Global beekeeper community, training, and events.",
+    "subcategories": [
+      "Events & Conferences",
+      "Local Clubs & Mentorship",
+      "Forums & Discussions",
+      "Citizen Science Projects",
+      "Bee Photography & Stories"
+    ]
+  }
+}
