@@ -4,3 +4,6 @@
 # Hugo build output
 /public/
 site/public/
+# Project is NOT using Hugo; ignore any accidental Hugo outputs
+/public/
+/site/public/
