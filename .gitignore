@@ -1,3 +1,6 @@
 ﻿
 # Local backups
 *.bak
+# Hugo build output
+/public/
+site/public/
