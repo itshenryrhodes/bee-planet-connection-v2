@@ -1,5 +1,5 @@
 /* =====================================================================
-   Bee Planet Connection â€” Design V1 (Style Guide + UI System)
+   Bee Planet Connection Ã¢â‚¬â€ Design V1 (Style Guide + UI System)
    File: static/css/main.css
    ---------------------------------------------------------------------
    What this file provides
@@ -196,77 +196,30 @@ code{background:#f1f5f9; padding:.1rem .35rem; border-radius:6px}
   .container{max-width:none; padding:0}
   body{background:#fff; color:#000}
 }
-  
-/* === BPC: hero wiring (Pages live) === */
-.home-hero {
-  background-image: url('/img/pooh-home-md.jpg');
-  background-size: cover;
-  background-position: right center;
-  background-repeat: no-repeat;
-}
-@media (max-width: 640px) {
-  .home-hero {
-    background-image: url('/img/pooh-home-mobile.jpg');
-    background-position: center;
-  }
-}
-/* === /BPC hero === */  
-/* === BPC: hero visibility tweaks === */
-.home-hero{
-  min-height: 60vh;       /* ensure it shows above the fold */
-  display: flex;
-  align-items: center;     /* vertically center copy */
-  padding: 6rem 0 3rem;    /* comfortable top/bottom spacing */
-}
-.home-hero .container{
-  max-width: 1100px;
-}
-@media (max-width: 640px){
-  .home-hero{ min-height: 45vh; padding: 4rem 0 2rem; }
-}
-/* === /BPC hero visibility === */
-/* === BPC: section hero mappings (auto-appended) ===
-body.section-home .home-hero{background-image:url('/img/pooh-home-md.jpg');}
-@media (max-width:640px){ body.section-home .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
-body.section-wiki .home-hero{background-image:url('/img/wiki-hero.jpg');}
-@media (max-width:640px){ body.section-wiki .home-hero{background-image:url('/img/wiki-hero-mobile.jpg');background-position:center;} }
-body.section-sops .home-hero{background-image:url('/img/sops-hero.jpg');}
-@media (max-width:640px){ body.section-sops .home-hero{background-image:url('/img/sops-hero-mobile.jpg');background-position:center;} }
-body.section-alerts .home-hero{background-image:url('/img/alerts-hero.jpg');}
-@media (max-width:640px){ body.section-alerts .home-hero{background-image:url('/img/alerts-hero-mobile.jpg');background-position:center;} }
-body.section-tools .home-hero{background-image:url('/img/tools-hero.jpg');}
-@media (max-width:640px){ body.section-tools .home-hero{background-image:url('/img/tools-hero-mobile.jpg');background-position:center;} }
-body.section-about .home-hero{background-image:url('/img/about-hero.jpg');}
-@media (max-width:640px){ body.section-about .home-hero{background-image:url('/img/about-hero-mobile.jpg');background-position:center;} }
-body.section-contact .home-hero{background-image:url('/img/contact-hero.jpg');}
-@media (max-width:640px){ body.section-contact .home-hero{background-image:url('/img/contact-hero-mobile.jpg');background-position:center;} }
-body.section-blog .home-hero{background-image:url('/img/blog-hero.jpg');}
-@media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/blog-hero-mobile.jpg');background-position:center;} }
-/* === /BPC: section hero mappings === */
 
 /* === BPC: canonical section hero mappings (auto-generated) === */
 /* home: custom */
 body.section-home .home-hero{background-image:url('/img/pooh-home-md.jpg');}
 @media (max-width:640px){ body.section-home .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* wiki: fallback */
-body.section-wiki .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-wiki .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-wiki .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-wiki .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* sops: fallback */
-body.section-sops .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-sops .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-sops .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-sops .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* alerts: fallback */
-body.section-alerts .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-alerts .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-alerts .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-alerts .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* tools: fallback */
-body.section-tools .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-tools .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-tools .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-tools .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* about: fallback */
-body.section-about .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-about .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-about .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-about .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* contact: fallback */
-body.section-contact .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-contact .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-contact .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-contact .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* blog: fallback */
-body.section-blog .home-hero{background-image:url('/img/');}
-@media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/');background-position:center;} }
+body.section-blog .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* === /BPC: canonical section hero mappings === */
