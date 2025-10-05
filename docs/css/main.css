@@ -210,4 +210,18 @@ code{background:#f1f5f9; padding:.1rem .35rem; border-radius:6px}
     background-position: center;
   }
 }
-/* === /BPC hero === */
+/* === /BPC hero === */  
+/* === BPC: hero visibility tweaks === */
+.home-hero{
+  min-height: 60vh;       /* ensure it shows above the fold */
+  display: flex;
+  align-items: center;     /* vertically center copy */
+  padding: 6rem 0 3rem;    /* comfortable top/bottom spacing */
+}
+.home-hero .container{
+  max-width: 1100px;
+}
+@media (max-width: 640px){
+  .home-hero{ min-height: 45vh; padding: 4rem 0 2rem; }
+}
+/* === /BPC hero visibility === */
