@@ -1,10 +1,70 @@
-<!-- bpc version 2025-10-05T10:17:05+01:00 -->
 <!doctype html>
-<meta charset="utf-8">
-<title>Bee Planet Connection</title>
-<link rel="stylesheet" href="/css/main-2162c32c.css">
-<h1>Bee Planet Connection</h1>
-<p>Temporary static site served by GitHub Pages (/docs on main).</p>
-<p><a href="/style-preview/">Style Preview</a></p>
-C:\Users\user
-C:\Users\user
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bee Planet Connection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <style>
+    /* inline safety: brand tokens in case main.css lacks them on first paint */
+    :root{ --bpc-green:#0f6a43; --bpc-gold:#d6a62a; }
+    .u-gold-underline{ border-bottom:4px solid var(--bpc-gold); display:inline-block; padding-bottom:.25rem }
+    .feature-grid{ display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin-top:1rem }
+    .feature-card{ border:1px solid rgba(0,0,0,.08); border-radius:14px; padding:1rem 1.25rem; box-shadow:0 6px 18px rgba(0,0,0,.06); background:#fff }
+    .feature-card h3{ margin:.25rem 0 .5rem 0 }
+    .btn-row{ margin-top:.75rem; display:flex; gap:.5rem; flex-wrap:wrap }
+    .btn{ background:var(--bpc-green); color:#fff; padding:.6rem .9rem; border-radius:10px; text-decoration:none }
+    .btn.ghost{ background:transparent; color:var(--bpc-green); border:2px solid var(--bpc-green) }
+    .site-header{ border-bottom:4px solid var(--bpc-gold) }
+  </style>
+</head>
+<body class="section-home">
+  <header class="site-header">
+    <nav class="container" style="display:flex; align-items:center; gap:1rem; justify-content:space-between; padding:.8rem 0">
+      <a class="brand" href="/"><img src="/img/logo.png" alt="Bee Planet Connection" width="160" height="40"></a>
+      <ul class="nav" style="display:flex; gap:1rem; list-style:none; margin:0; padding:0">
+        <li><a href="/wiki/">Wiki</a></li>
+        <li><a href="/sops/">SOPs</a></li>
+        <li><a href="/alerts/">Alerts</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Background image supplied by .home-hero CSS you’ve already deployed -->
+  <section class="home-hero">
+    <div class="container">
+      <div class="hero-copy" style="max-width:620px; background:rgba(255,255,255,.85); padding:1rem 1.25rem; border-radius:14px">
+        <h1 class="u-gold-underline">Bee Planet Connection</h1>
+        <p class="lead">Practical knowledge, tools, and alerts to keep bees healthy and communities informed.</p>
+        <div class="btn-row">
+          <a class="btn" href="/wiki/">Browse the Wiki</a>
+          <a class="btn ghost" href="/blog/">Read the Blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" style="margin-top:1.25rem">
+    <section class="feature-grid">
+      <article class="feature-card">
+        <h3 style="color:var(--bpc-green)">Featured blog</h3>
+        <p>A running log of experiments, field notes, and project updates. We share what’s working—and what isn’t.</p>
+        <p class="btn-row"><a class="btn" href="/blog/">Go to Blog</a></p>
+      </article>
+      <article class="feature-card">
+        <h3 style="color:var(--bpc-green)">Featured wiki page</h3>
+        <p>Start with the basics and build depth over time. Pages are short, sourced, and designed for reuse.</p>
+        <p class="btn-row"><a class="btn" href="/wiki/">Open the Wiki</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container" style="margin:2rem 0 3rem; opacity:.7">
+    <small>&copy; 2025 Bee Planet Connection</small>
+  </footer>
+</body>
+</html>
