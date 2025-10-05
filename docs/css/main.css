@@ -1,5 +1,5 @@
 /* =====================================================================
-   Bee Planet Connection ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Design V1 (Style Guide + UI System)
+   Bee Planet Connection ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Design V1 (Style Guide + UI System)
    File: static/css/main.css
    ---------------------------------------------------------------------
    What this file provides
@@ -197,7 +197,6 @@ code{background:#f1f5f9; padding:.1rem .35rem; border-radius:6px}
   body{background:#fff; color:#000}
 }
 
-/* === BPC: canonical section hero mappings (auto-generated) === */
 /* home: custom */
 body.section-home .home-hero{background-image:url('/img/pooh-home-md.jpg');}
 @media (max-width:640px){ body.section-home .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
@@ -237,3 +236,31 @@ body.section-blog .home-hero{background-image:url('/img/pooh-home-md.jpg');}
   .home-hero{ background-position: center } /* center on mobile */
 }
 /* === /BPC polish === */
+  
+/* === BPC: global brand + universal hero (single source of truth) === */
+:root{
+  --bpc-green:#0f6a43;
+  --bpc-gold:#d6a62a;
+  /* Change the next line to update the hero everywhere */
+  --bpc-hero:url('/img/hero_1.jpg');
+}
+.site-header{ border-bottom:4px solid var(--bpc-gold) }
+.site-header .brand img{ height:96px; width:auto; display:block }
+@media (max-width:640px){ .site-header .brand img{ height:64px } }
+
+.u-gold-underline{ border-bottom:4px solid var(--bpc-gold); display:inline-block; padding-bottom:.25rem }
+
+/* Universal hero used on ALL pages */
+.home-hero{
+  background-image: var(--bpc-hero);
+  background-size: cover;
+  background-position: right center; /* right-aligned on desktop */
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  display:flex; align-items:center;
+  padding: 6rem 0 3rem;
+}
+@media (max-width:640px){
+  .home-hero{ background-position:center; min-height:45vh; padding:4rem 0 2rem }
+}
+/* === /BPC: global brand + universal hero === */
