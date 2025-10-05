@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bee Planet Connection</title>
+    <link>http://127.0.0.1:1322/</link>
+    <description>Recent content on Bee Planet Connection</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://127.0.0.1:1322/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Style Preview</title>
+      <link>http://127.0.0.1:1322/style-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1322/style-preview/</guid>
+      <description>&lt;section class=&#34;prose&#34;&gt;&#xA;  &lt;h1&gt;Headings &amp; Typography&lt;/h1&gt;&#xA;  &lt;p&gt;This page previews the Bee Planet Connection design tokens, typography, buttons, and components.&lt;/p&gt;&#xA;  &lt;h2&gt;Buttons&lt;/h2&gt;&#xA;  &lt;div class=&#34;cluster&#34;&gt;&#xA;    &lt;a class=&#34;btn btn-primary&#34; href=&#34;#&#34;&gt;Primary&lt;/a&gt;&#xA;    &lt;a class=&#34;btn btn-outline&#34; href=&#34;#&#34;&gt;Outline&lt;/a&gt;&#xA;    &lt;a class=&#34;btn btn-ghost&#34; href=&#34;#&#34;&gt;Ghost&lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;h2&gt;Cards&lt;/h2&gt;&#xA;  &lt;div class=&#34;grid cols-3&#34;&gt;&#xA;    &lt;div class=&#34;card&#34;&gt;&lt;h3&gt;Card One&lt;/h3&gt;&lt;p&gt;Simple reusable card layout.&lt;/p&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;card&#34;&gt;&lt;h3&gt;Card Two&lt;/h3&gt;&lt;p&gt;Cards use shadows and rounded corners.&lt;/p&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;card&#34;&gt;&lt;h3&gt;Card Three&lt;/h3&gt;&lt;p&gt;Supports flexible grid columns.&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;h2&gt;Tables&lt;/h2&gt;&#xA;  &lt;table&gt;&#xA;    &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Token&lt;/th&gt;&lt;th&gt;Value&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&#xA;    &lt;tbody&gt;&#xA;      &lt;tr&gt;&lt;td&gt;--forest&lt;/td&gt;&lt;td&gt;#164d3a&lt;/td&gt;&lt;/tr&gt;&#xA;      &lt;tr&gt;&lt;td&gt;--honey&lt;/td&gt;&lt;td&gt;#e0a400&lt;/td&gt;&lt;/tr&gt;&#xA;      &lt;tr&gt;&lt;td&gt;--navy&lt;/td&gt;&lt;td&gt;#0b3a82&lt;/td&gt;&lt;/tr&gt;&#xA;    &lt;/tbody&gt;&#xA;  &lt;/table&gt;&#xA;  &lt;h2&gt;Alerts&lt;/h2&gt;&#xA;  &lt;div class=&#34;alert&#34;&gt;This is a default alert block.&lt;/div&gt;&#xA;  &lt;div class=&#34;alert info&#34; style=&#34;margin-top:.5rem;&#34;&gt;This is an info alert block.&lt;/div&gt;&#xA;&lt;/section&gt;</description>
+    </item>
+  </channel>
+</rss>
