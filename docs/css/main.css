@@ -1,5 +1,5 @@
 /* =====================================================================
-   Bee Planet Connection Ã¢â‚¬â€ Design V1 (Style Guide + UI System)
+   Bee Planet Connection ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Design V1 (Style Guide + UI System)
    File: static/css/main.css
    ---------------------------------------------------------------------
    What this file provides
@@ -223,3 +223,17 @@ body.section-contact .home-hero{background-image:url('/img/pooh-home-md.jpg');}
 body.section-blog .home-hero{background-image:url('/img/pooh-home-md.jpg');}
 @media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
 /* === /BPC: canonical section hero mappings === */
+/* === BPC polish (logo+hero) === */
+.site-header .brand img{ height:72px; width:auto; display:block }
+@media (max-width: 640px){
+  .site-header .brand img{ height:52px }
+}
+.home-hero{
+  background-size: cover;
+  background-position: right center; /* align right on desktop */
+  background-repeat: no-repeat;
+}
+@media (max-width: 640px){
+  .home-hero{ background-position: center } /* center on mobile */
+}
+/* === /BPC polish === */
