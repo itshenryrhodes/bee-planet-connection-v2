@@ -1,15 +1,11 @@
+$cfg = @'
 baseURL = "https://beeplanetconnection.org/"
-title = "Bee Planet Connection"
+title  = "Bee Planet Connection"
 languageCode = "en-us"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-[outputs]
-  home = ["HTML","RSS"]
-  page = ["HTML"]
-  section = ["HTML","RSS"]
 
 [markup]
   [markup.highlight]
@@ -20,10 +16,11 @@ languageCode = "en-us"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
-[module]
-  [[module.mounts]]
-    source = "../static"
-    target = "static"
-  [[module.mounts]]
-    source = "../assets"
-    target = "assets"
+[outputs]
+home    = ["HTML","RSS"]
+page    = ["HTML"]
+section = ["HTML","RSS"]
+'@
+
+$enc = [Text.UTF8Encoding]::new($false)   # UTF-8 no BOM
+[IO.File]::WriteAllText(".\site\config.toml", $cfg, $enc)
