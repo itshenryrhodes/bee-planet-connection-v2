@@ -1,5 +1,5 @@
 /* =====================================================================
-   Bee Planet Connection — Design V1 (Style Guide + UI System)
+   Bee Planet Connection â€” Design V1 (Style Guide + UI System)
    File: static/css/main.css
    ---------------------------------------------------------------------
    What this file provides
@@ -243,3 +243,30 @@ body.section-contact .home-hero{background-image:url('/img/contact-hero.jpg');}
 body.section-blog .home-hero{background-image:url('/img/blog-hero.jpg');}
 @media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/blog-hero-mobile.jpg');background-position:center;} }
 /* === /BPC: section hero mappings === */
+
+/* === BPC: canonical section hero mappings (auto-generated) === */
+/* home: custom */
+body.section-home .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-home .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
+/* wiki: fallback */
+body.section-wiki .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-wiki .home-hero{background-image:url('/img/');background-position:center;} }
+/* sops: fallback */
+body.section-sops .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-sops .home-hero{background-image:url('/img/');background-position:center;} }
+/* alerts: fallback */
+body.section-alerts .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-alerts .home-hero{background-image:url('/img/');background-position:center;} }
+/* tools: fallback */
+body.section-tools .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-tools .home-hero{background-image:url('/img/');background-position:center;} }
+/* about: fallback */
+body.section-about .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-about .home-hero{background-image:url('/img/');background-position:center;} }
+/* contact: fallback */
+body.section-contact .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-contact .home-hero{background-image:url('/img/');background-position:center;} }
+/* blog: fallback */
+body.section-blog .home-hero{background-image:url('/img/');}
+@media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/');background-position:center;} }
+/* === /BPC: canonical section hero mappings === */
