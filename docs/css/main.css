@@ -225,3 +225,21 @@ code{background:#f1f5f9; padding:.1rem .35rem; border-radius:6px}
   .home-hero{ min-height: 45vh; padding: 4rem 0 2rem; }
 }
 /* === /BPC hero visibility === */
+/* === BPC: section hero mappings (auto-appended) ===
+body.section-home .home-hero{background-image:url('/img/pooh-home-md.jpg');}
+@media (max-width:640px){ body.section-home .home-hero{background-image:url('/img/pooh-home-mobile.jpg');background-position:center;} }
+body.section-wiki .home-hero{background-image:url('/img/wiki-hero.jpg');}
+@media (max-width:640px){ body.section-wiki .home-hero{background-image:url('/img/wiki-hero-mobile.jpg');background-position:center;} }
+body.section-sops .home-hero{background-image:url('/img/sops-hero.jpg');}
+@media (max-width:640px){ body.section-sops .home-hero{background-image:url('/img/sops-hero-mobile.jpg');background-position:center;} }
+body.section-alerts .home-hero{background-image:url('/img/alerts-hero.jpg');}
+@media (max-width:640px){ body.section-alerts .home-hero{background-image:url('/img/alerts-hero-mobile.jpg');background-position:center;} }
+body.section-tools .home-hero{background-image:url('/img/tools-hero.jpg');}
+@media (max-width:640px){ body.section-tools .home-hero{background-image:url('/img/tools-hero-mobile.jpg');background-position:center;} }
+body.section-about .home-hero{background-image:url('/img/about-hero.jpg');}
+@media (max-width:640px){ body.section-about .home-hero{background-image:url('/img/about-hero-mobile.jpg');background-position:center;} }
+body.section-contact .home-hero{background-image:url('/img/contact-hero.jpg');}
+@media (max-width:640px){ body.section-contact .home-hero{background-image:url('/img/contact-hero-mobile.jpg');background-position:center;} }
+body.section-blog .home-hero{background-image:url('/img/blog-hero.jpg');}
+@media (max-width:640px){ body.section-blog .home-hero{background-image:url('/img/blog-hero-mobile.jpg');background-position:center;} }
+/* === /BPC: section hero mappings === */
