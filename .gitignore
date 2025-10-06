@@ -7,3 +7,6 @@ site/public/
 # Project is NOT using Hugo; ignore any accidental Hugo outputs
 /public/
 /site/public/
+# BPC: backups and local artifacts
+/backup-*/
+*.log

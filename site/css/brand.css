@@ -1,0 +1,22 @@
+/* Bee Planet Connection — Brand Tokens (CSS custom properties) */
+:root{
+  --bpc-primary:   #F6B800; /* Honey */
+  --bpc-green:     #2E7D32; /* Brand Green */
+  --bpc-leaf:      #3E9E49; /* Leaf Accent */
+  --bpc-sky:       #E6F2F6; /* Sky Wash (bg) */
+  --bpc-pollen:    #FFC34D; /* Pollen Dot */
+  --bpc-ink:       #1E293B; /* Text primary */
+  --bpc-slate:     #475569; /* Text secondary */
+  --bpc-paper:     #FFFBF2; /* Warm bg */
+  --bpc-card:      #FFFFFF; /* Card surface */
+  --bpc-stroke:    #E2E8F0; /* Dividers */
+  --bpc-success:   #2F9E44;
+  --bpc-warning:   #F59F00;
+  --bpc-danger:    #E03131;
+  --bpc-info:      #3B82F6;
+
+  --bpc-font-body: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+body{ color: var(--bpc-ink); background: var(--bpc-paper); font-family: var(--bpc-font-body); line-height:1.55 }
+a{ color: var(--bpc-green); text-decoration: none }
+a:hover{ text-decoration: underline }

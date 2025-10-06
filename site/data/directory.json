@@ -1,0 +1,16 @@
+[
+  {
+    "name": "British Beekeepers Association",
+    "type": "Association",
+    "region": "UK",
+    "url": "https://www.bbka.org.uk",
+    "tags": ["education","hobbyist","advocacy"]
+  },
+  {
+    "name": "Apimondia",
+    "type": "Federation",
+    "region": "Global",
+    "url": "https://www.apimondia.org",
+    "tags": ["global","congress","research"]
+  }
+]
