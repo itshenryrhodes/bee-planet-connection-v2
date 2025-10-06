@@ -2,12 +2,34 @@
 .site-header .brand{display:flex;align-items:center;}
 .site-header .brand img{height:48px;width:auto;display:block;}
 @media (max-width:640px){.site-header .brand img{height:40px;}}
-/* Canonical header logo sizing */
-.site-header .brand img{
-  height:48px!important;
-  width:auto!important;
-  max-height:none!important;
-  display:block;
+/* Canonical header logo sizing — full 256px height */
+.site-header {
+  padding: 1rem 0;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .brand img {
+  height: 256px !important;
+  width: auto !important;
+  max-height: none !important;
+  display: block;
+}
+
+/* Responsive downscale for smaller screens */
+@media (max-width: 1024px) {
+  .site-header .brand img {
+    height: 192px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header .brand img {
+    height: 128px !important;
+  }
 }
 @media (max-width:640px){
   .site-header .brand img{ height:40px!important; }
