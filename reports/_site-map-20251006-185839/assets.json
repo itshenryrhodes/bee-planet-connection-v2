@@ -1,0 +1,116 @@
+[
+    {
+        "Path":  "css/main-2162c32c.css",
+        "Kind":  "css",
+        "Bytes":  7357,
+        "Dimensions":  ""
+    },
+    {
+        "Path":  "css/main.css",
+        "Kind":  "css",
+        "Bytes":  10819,
+        "Dimensions":  ""
+    },
+    {
+        "Path":  "css/site.css",
+        "Kind":  "css",
+        "Bytes":  818,
+        "Dimensions":  ""
+    },
+    {
+        "Path":  "favicon-32.png",
+        "Kind":  "image",
+        "Bytes":  97,
+        "Dimensions":  "32 x 32"
+    },
+    {
+        "Path":  "favicon.svg",
+        "Kind":  "image",
+        "Bytes":  11058,
+        "Dimensions":  ""
+    },
+    {
+        "Path":  "img/apple-touch-icon.png",
+        "Kind":  "image",
+        "Bytes":  72,
+        "Dimensions":  "1 x 1"
+    },
+    {
+        "Path":  "img/favicon-32.png",
+        "Kind":  "image",
+        "Bytes":  97,
+        "Dimensions":  "32 x 32"
+    },
+    {
+        "Path":  "img/favicon.svg",
+        "Kind":  "image",
+        "Bytes":  11058,
+        "Dimensions":  ""
+    },
+    {
+        "Path":  "img/hero_1.jpg",
+        "Kind":  "image",
+        "Bytes":  135613,
+        "Dimensions":  "900 x 675"
+    },
+    {
+        "Path":  "img/logo-128.png",
+        "Kind":  "image",
+        "Bytes":  8054,
+        "Dimensions":  "128 x 128"
+    },
+    {
+        "Path":  "img/logo-16.png",
+        "Kind":  "image",
+        "Bytes":  475,
+        "Dimensions":  "16 x 16"
+    },
+    {
+        "Path":  "img/logo-192.png",
+        "Kind":  "image",
+        "Bytes":  14417,
+        "Dimensions":  "192 x 192"
+    },
+    {
+        "Path":  "img/logo-256.png",
+        "Kind":  "image",
+        "Bytes":  20695,
+        "Dimensions":  "256 x 256"
+    },
+    {
+        "Path":  "img/logo-32.png",
+        "Kind":  "image",
+        "Bytes":  1130,
+        "Dimensions":  "32 x 32"
+    },
+    {
+        "Path":  "img/logo-512.png",
+        "Kind":  "image",
+        "Bytes":  50790,
+        "Dimensions":  "512 x 512"
+    },
+    {
+        "Path":  "img/logo-64.png",
+        "Kind":  "image",
+        "Bytes":  2971,
+        "Dimensions":  "64 x 64"
+    },
+    {
+        "Path":  "img/logo.png",
+        "Kind":  "image",
+        "Bytes":  50790,
+        "Dimensions":  "512 x 512"
+    },
+    {
+        "Path":  "img/pooh-home-md.jpg",
+        "Kind":  "image",
+        "Bytes":  135613,
+        "Dimensions":  "900 x 675"
+    },
+    {
+        "Path":  "img/pooh-home-mobile.jpg",
+        "Kind":  "image",
+        "Bytes":  63408,
+        "Dimensions":  "427 x 320"
+    }
+]
